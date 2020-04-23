@@ -1,0 +1,17 @@
+/**Inheritance**/
+
+public virtual class amount {
+    protected double amt;
+    public amount(){
+        System.debug('This is a default constructor');
+        amt=10;
+    }
+    public amount(double amounts){
+        System.debug('this is a default constructor with-20');
+        amt=amounts;
+    }
+    public virtual double getamount(integer count){
+        System.debug('calculatedamount'+amt*count);
+        return (amt*count);
+    }
+}

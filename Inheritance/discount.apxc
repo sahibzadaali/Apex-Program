@@ -1,0 +1,8 @@
+/**Inheritance**/
+/**Inherit the parent class from amount apex class**/
+public class discount extends amount{
+	public override double getamount(integer count){
+        System.debug('calculatedamount'+ amt* count * 1.0);
+        return (amt*count*1.0);
+    }
+}
