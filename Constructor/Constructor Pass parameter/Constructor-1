@@ -1,0 +1,22 @@
+/**Constructor Calculate area**/
+
+public class con {
+    private double length=2;
+    private double breadth=5;
+    public con(){
+        System.debug('this is a default constructor');
+    }
+    public con(double l,double b){
+        l=length;
+        b=breadth;
+    }
+    public con(double l){
+        l=length=breadth;
+    }
+    public double calculatearea(){
+        System.debug(length*breadth);
+        return (length*breadth);
+    }
+    
+
+}
