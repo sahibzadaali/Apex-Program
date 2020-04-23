@@ -1,0 +1,7 @@
+public class MathService {
+    public Integer getmodvalue(Integer num){
+        Integer modvalue=Math.mod(num,2);
+        System.debug(modvalue);
+        return modvalue;
+    }
+}
