@@ -1,0 +1,8 @@
+public class setdemo {
+    public static void method(){
+        Set<Integer> items=new Set<Integer> {80,10,80,10};
+            for(Integer i:items){
+                System.debug(i);
+            }
+    }
+}
