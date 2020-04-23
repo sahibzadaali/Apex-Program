@@ -1,0 +1,8 @@
+public class mapdemo {
+    public static void method(){
+        Map<Integer,String> mapset=new Map<Integer,String>{1=>'One',2=>'Two'};
+            for(Integer i:mapset.KeySet()){
+                System.debug(mapset.get(i));
+            }
+    }
+}
