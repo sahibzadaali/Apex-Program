@@ -1,0 +1,4 @@
+List <String> Fruits=new list<String>{'Apple','Orange','Guava','Lichi','Papaya'};
+    for(Integer i=0;i<5;i++){
+        System.debug(Fruits[i]);
+    }    
