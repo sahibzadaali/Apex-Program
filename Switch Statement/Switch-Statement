@@ -1,0 +1,27 @@
+//switch Statement//
+public class switchs {
+    public enum medal{gold,silver,bronze}
+        public void medalwon(switchs.medal medalcolor){
+            switch on medalcolor{
+                when gold{
+                    System.debug('Won Gold medal');
+                }
+                when silver{
+                    System.debug('Won Silver Medal');
+                }
+                when bronze{
+                    System.debug('Won Bronze medal');
+                }
+            }
+        }
+}
+
+<-------------------------------------------------------------------------------------------------->
+Apex code
+switchs obj=new switchs();
+obj.medalwon(switchs.medal.gold);
+<-------------------------------------------------------------------------------------------------------->
+
+<--------------------------------------------------->
+output:- Won Gold medal
+<--------------------------------------------------->
