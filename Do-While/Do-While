@@ -1,0 +1,9 @@
+public class DOWhile {
+    public static void method (){
+        Integer count=1;
+       	 do{
+           	System.debug(count);
+           	count++;  
+        	}while(count<11);
+    }
+}
