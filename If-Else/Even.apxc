@@ -1,0 +1,18 @@
+public class Even {
+    public static void evennumber()
+    {
+		Integer num=10;
+    	Integer num1=2;
+    	Integer remainder=math.mod(num,num1);
+    	if(remainder==0){
+     	   System.debug('Even');
+    	}else{
+       	 System.debug('Odd');
+    	}
+    }
+}
+
+<------------------------------------>
+Enter Apex code
+Even.evennumber();
+
