@@ -1,0 +1,13 @@
+public class ReverseArray {
+    public static void method(){
+        Integer[] a=new Integer[] {1,2,3,4,5};
+            //Before reverse
+            for(Integer i=0;i<a.size();i++){
+                System.debug('Before Reverse' + a[i]);
+            }
+        	//After reverse
+        	for(Integer i=a.size()-1;i>=0;i--){
+            	System.debug('After reverse' + a[i]);
+        }
+    }
+}
