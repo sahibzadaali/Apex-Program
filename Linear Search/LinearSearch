@@ -1,0 +1,16 @@
+public class linearsearch {
+    public static void search(){
+        Integer[] a=new Integer[] {1,2,3,4,5};
+            Integer key=5,i;
+        for(i=0;i<a.size();i++){
+            if(a[i]==key){
+                System.debug('Found');
+                break;
+            }
+        }
+        if(a[i]!=Key){
+            System.debug('Not Found');
+        }
+    }
+
+}
