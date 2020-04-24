@@ -1,0 +1,13 @@
+public class BiggestElement {
+    public static void method(){
+        Integer[] a=new Integer[] {100,200,-20};
+            for(Integer i=0;i<a.size()-1;i++){
+                if(a[i]>a[i+1]){
+                    Integer temp=a[i];
+                    a[i]=a[i+1];
+                    a[i+1]=temp;
+                }
+            }
+        System.debug('The Biggest Element in array is'+ a[a.size()-1]);
+    }
+}
