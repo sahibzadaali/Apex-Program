@@ -1,0 +1,17 @@
+public class Stdata {
+    public list<stwrap> st;
+    public stdata(){
+        stwrap s1=new stwrap();
+        s1.name='st1';
+        s1.age=15;
+        stwrap s2=new stwrap();
+        s2.name='st2';
+        s2.age=20;
+        st=new list<stwrap>{s1,s2};
+            System.debug(st);
+    }
+    public class stwrap{
+        public String name;
+        public Integer age;
+    }
+}
