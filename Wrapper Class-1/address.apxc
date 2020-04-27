@@ -1,0 +1,5 @@
+public class address {
+    public string city;
+    public string state;
+    public string code;
+}

@@ -1,0 +1,13 @@
+public class EmployeeAdd {
+	public string name;
+    public Integer Salary;
+    public address add;
+    public EmployeeAdd(String name,Integer Salary,String city, string state,string code){
+    	this.name=name;
+    	this.salary=salary;
+    	add=new address();
+    	add.city=city;
+        add.state=state;
+        add.code=code;
+    }
+}
