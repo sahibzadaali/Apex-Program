@@ -1,0 +1,16 @@
+public class University {
+	public string uni_name;
+    public string city;
+    public course co;
+    public University(string c_name,Integer fee){
+        uni_name='GNDU';
+        city='Asr';
+        co=new course();
+        co.course_name=c_name;
+        co.fees=fee;
+    }
+    public class course{
+        public string course_name;
+        public Integer fees;
+    }
+}
